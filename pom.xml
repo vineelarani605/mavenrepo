@@ -4,6 +4,12 @@
   <artifactId>studentapp</artifactId>
   <version>2.5-SNAPSHOT</version>
   <packaging>war</packaging>
+  <!-- ... Existing project configuration ... -->
+
+  <properties>
+    <sonar.host.url>http://15.206.88.214:9000/</sonar.host.url>
+    <sonar.login>squ_a226d66018c36c7a962a663afc13ff7356b6bd38</sonar.login>
+  </properties>
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
